@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var x = 5
+    var y = 30
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        for i in 0...5{
+            let btn = UIButton(frame: CGRect(x: x, y: y, width: 50, height: 50))
+            btn.backgroundColor = .red
+            btn.addTarget(self, action: #selector(btnClick(sender:)), for: .touchUpInside)
+            btn.tag = i +1
+            
+        }
     }
 
+    func btnClick(sender: UIButton){
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
