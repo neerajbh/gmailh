@@ -25,6 +25,7 @@ class ViewController: UIViewController {
 
     func btnClick(sender: UIButton){
         print("hello")
+        print("ji")
     }
 
 }
