@@ -12,6 +12,7 @@
 		071075E71F149E4D00A0AD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071075E51F149E4D00A0AD34 /* Main.storyboard */; };
 		071075E91F149E4D00A0AD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071075E81F149E4D00A0AD34 /* Assets.xcassets */; };
 		071075EC1F149E4D00A0AD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071075EA1F149E4D00A0AD34 /* LaunchScreen.storyboard */; };
+		0770B08220FDFE89005139FD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770B08120FDFE88005139FD /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		071075E81F149E4D00A0AD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		071075EB1F149E4D00A0AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		071075ED1F149E4D00A0AD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0770B08120FDFE88005139FD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				071075E11F149E4D00A0AD34 /* AppDelegate.swift */,
 				071075E31F149E4D00A0AD34 /* ViewController.swift */,
+				0770B08120FDFE88005139FD /* File.swift */,
 				071075E51F149E4D00A0AD34 /* Main.storyboard */,
 				071075E81F149E4D00A0AD34 /* Assets.xcassets */,
 				071075EA1F149E4D00A0AD34 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				071075E41F149E4D00A0AD34 /* ViewController.swift in Sources */,
+				0770B08220FDFE89005139FD /* File.swift in Sources */,
 				071075E21F149E4D00A0AD34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				071075F21F149E4D00A0AD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
