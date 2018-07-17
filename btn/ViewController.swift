@@ -18,19 +18,14 @@ class ViewController: UIViewController {
             let btn = UIButton(frame: CGRect(x: x, y: y, width: 50, height: 50))
             btn.backgroundColor = .red
             btn.addTarget(self, action: #selector(btnClick(sender:)), for: .touchUpInside)
-            btn.tag = i +1
+            btn.tag = i + 2
             
         }
     }
 
     func btnClick(sender: UIButton){
-        
+        print("hello")
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
