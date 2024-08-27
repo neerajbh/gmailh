@@ -1,1 +1,1 @@
-All things are needed in this repo
+Hi there i am using github
